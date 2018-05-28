@@ -1,0 +1,4 @@
+docker logs spawning-pool --follow
+
+# --follow : Follow log output
+# https://docs.docker.com/engine/reference/commandline/logs/

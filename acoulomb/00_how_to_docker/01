@@ -1,0 +1,3 @@
+docker-machine create --driver virtualbox Char
+
+#docker machine : because it's a command relative to the machine and not to the containers

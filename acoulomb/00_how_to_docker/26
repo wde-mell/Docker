@@ -1,0 +1,5 @@
+docker service create --name engineering-bay --replicas 2 --network overmind --env OC_USERNAME=acoulomb --env OC_PASSWD=password 42school/engineering-bay
+
+# https://hub.docker.com/r/42school/engineering-bay/
+# --replicas uint		 Number of tasks
+# 

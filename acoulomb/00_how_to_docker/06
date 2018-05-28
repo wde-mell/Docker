@@ -1,0 +1,8 @@
+docker run --name overlord --restart=always -d -p 5000:80 nginx
+
+# docker run --help :
+# --name 	 string		Assign a name to the container
+# --restart	 string		Restart policy to apply when a container exits (default "no")
+# port : https://tech.gamuza.fr/docker-les-commandes-de-base
+# >> -p XX:XX : port external:container
+# >> -d = detached : background

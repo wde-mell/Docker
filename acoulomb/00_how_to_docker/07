@@ -1,0 +1,6 @@
+docker inspect -f {{.NetworkSettings.IPAddress}} overlord
+
+# 172.17.0.2
+# --help :
+# -f, --format string   Format the output using the given Go template
+# {{}} : tree

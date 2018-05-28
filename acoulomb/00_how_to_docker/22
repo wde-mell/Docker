@@ -1,0 +1,5 @@
+docker-machine ssh Aiur "docker swarm join --token $(docker swarm join-token -q worker) $(docker-machine ip Char):2377"
+
+# one has to go on the Aiur machine to display the command
+# http://www.it-wars.com/posts/virtualisation/docker-swarm-par-lexemple/
+# https://docs.docker.com/engine/reference/commandline/swarm_join-token/

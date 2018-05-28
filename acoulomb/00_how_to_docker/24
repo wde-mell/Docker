@@ -1,0 +1,4 @@
+docker service create --name orbital-command -e RABBITMQ_DEFAULT_USER=acoulomb -e RABBITMQ_DEFAULT_PASS=password --network overmind rabbitmq
+
+# https://docs.docker.com/samples/library/rabbitmq/#erlang-cookie
+# http://www.it-wars.com/posts/virtualisation/docker-swarm-par-lexemple/

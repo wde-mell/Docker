@@ -1,0 +1,4 @@
+eval $(docker-machine env Char)
+
+# eval is a builtin command that evaluates the docker-machine command 
+# "docker-machine env Char" which sets docker in the env of the current terminal

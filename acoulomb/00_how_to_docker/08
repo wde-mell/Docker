@@ -1,0 +1,6 @@
+docker run -it --rm alpine
+
+# https://docs.docker.com/engine/reference/commandline/run/#options
+# -i : interactive mode, get inside the container
+# -t : allocates a tty to permit signals to work
+# --rm : Automatically remove the container when it exits

@@ -1,0 +1,4 @@
+docker run hello-world
+
+# to check : docker info or docker container ls --all
+# https://docs.docker.com/get-started/#recap-and-cheat-sheet
