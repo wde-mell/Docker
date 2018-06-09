@@ -1,0 +1,6 @@
+docker swarm init --advertise-addr $(docker-machine ip Char):2377
+
+# https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/
+# Check : docker info > swarm: active
+
+# Docker Swarm est un outil permettant de gérer un cluster de conteneurs Docker afin de créerdes pools de serveurs hôtes exécutant Docker et de les exposer comme un seul hôte Docker virtuel, puis de configurer des containers Docker en gérant automatiquement la répartition de lacharge et la gestion de l’état du cluster.
