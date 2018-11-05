@@ -1,3 +1,0 @@
-docker volume ls
-
-# https://docs.docker.com/engine/reference/commandline/volume_ls/

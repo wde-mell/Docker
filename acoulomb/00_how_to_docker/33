@@ -1,3 +1,0 @@
-docker rmi -f $(docker images -a -q)
-
-# rmi : Remove one or more images

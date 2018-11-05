@@ -1,4 +1,0 @@
-docker swarm init --listen-addr $(docker-machine ip Char) --advertise-addr $(docker-machine ip Char):2377
-
-# https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/
-# Check : docker info > swarm: active
